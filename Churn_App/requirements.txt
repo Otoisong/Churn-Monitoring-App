@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+alibi
+alibi-detect
+matplotlib
+seaborn
+openpyxl
+
