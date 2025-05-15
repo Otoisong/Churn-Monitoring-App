@@ -7,6 +7,17 @@ import joblib
 from sklearn.model_selection import train_test_split
 from alibi_detect.cd import KSDrift
 
+
+model_path = "data_model.joblib"
+
+if os.path.exists(model_path):
+    model = joblib.load(model_path)
+else:
+    st.error("❌ Model file not found. Please upload 'data_model.joblib' to the app directory.")
+    st.stop()
+
+
+
 # Load saved model
 model = joblib.load("data_model.joblib")
 
