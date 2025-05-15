@@ -28,7 +28,7 @@ page = st.sidebar.selectbox("Select Page", ["Homepage", "Prediction & Explanatio
 # PAGE 1: HOMEPAGE
 # ----------------------------------------------
 if page == "Homepage":
-    st.title("🏦 Lloyds Bank - Customer Churn Model")
+    st.title("🏦 LG - Bank - Customer Churn Model")
     st.markdown("Welcome to the churn model app. This tool helps predict customer churn and monitor model drift.")
 
     st.subheader("📌 Model Information")
