@@ -6,6 +6,8 @@ import seaborn as sns
 import joblib
 from sklearn.model_selection import train_test_split
 from alibi_detect.cd import KSDrift
+import os
+
 
 
 model_path = "data_model.joblib"
